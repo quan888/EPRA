@@ -1,0 +1,156 @@
+body {
+    background: url("bg13.jpg") repeat left top;
+}
+#menu {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    /*zoom: 0.5;
+    -moz-transform: scale(0.5);*/
+}
+.saturn {
+
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4679BD;
+
+    /*
+     * Sets up the animation duration, timing-function (or easing)
+     * and iteration-count. Ensure you use the appropriate vendor-specific 
+     * prefixes as well as the official syntax for now. Remember, tools like 
+     * CSS Please are your friends!
+     */
+    -webkit-animation: myOrbit 12s linear infinite; /* Chrome, Safari 5 */
+    -moz-animation: myOrbit 12s linear infinite; /* Firefox 5-15 */
+    -o-animation: myOrbit 12s linear infinite; /* Opera 12+ */
+    animation: myOrbit 12s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+
+
+
+
+}
+.planet2 {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     background: #4679BD;
+
+     -webkit-animation: myOrbit2 15s linear infinite; /* Chrome, Safari 5 */
+     -moz-animation: myOrbit2 15s linear infinite; /* Firefox 5-15 */
+     -o-animation: myOrbit2 15s linear infinite; /* Opera 12+ */
+     animation: myOrbit2 15s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+
+ }
+.planet3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4679BD;
+
+    -webkit-animation: myOrbit3 21s linear infinite; /* Chrome, Safari 5 */
+    -moz-animation: myOrbit3 21s linear infinite; /* Firefox 5-15 */
+    -o-animation: myOrbit3 21s linear infinite; /* Opera 12+ */
+    animation: myOrbit3 21s linear infinite; /* Chrome, Firefox 16+,
+                                                      IE 10+, Safari 5 */
+
+}
+/*#inner_circle {
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+}*/
+#inner_circle_inner {
+    background-image: radial-gradient(center center, circle cover, #352e24, #1a160d);
+    background-image: -o-radial-gradient(center center, circle cover, #352e24, #1a160d);
+    background-image: -ms-radial-gradient(center center, circle cover, #352e24, #1a160d);
+    background-image: -moz-radial-gradient(center center, circle cover, #352e24, #1a160d);
+    background-image: -webkit-radial-gradient(center center, circle cover, #352e24, #1a160d);
+}*/
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+/*@-webkit-keyframes myOrbit {
+     from { -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+     to   { -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+ }
+
+@-moz-keyframes myOrbit {
+    from { -moz-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit {
+    from { -o-transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@-webkit-keyframes myOrbit2 {
+    from { -webkit-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit2 {
+    from { -moz-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit2 {
+    from { -o-transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes myOrbit2 {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+}
+@-webkit-keyframes myOrbit3 {
+    from { -webkit-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -webkit-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@-moz-keyframes myOrbit3 {
+    from { -moz-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -moz-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@-o-keyframes myOrbit3 {
+    from { -o-transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { -o-transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}
+
+@keyframes myOrbit3 {
+    from { transform: rotate(0deg) translateX(350px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(350px) rotate(-360deg); }
+}*/
